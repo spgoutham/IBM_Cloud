@@ -1,0 +1,2373 @@
+{
+  "intents": [
+    {
+      "intent": "benefit",
+      "examples": [
+        {
+          "text": "How much"
+        },
+        {
+          "text": "How much benefit?"
+        },
+        {
+          "text": "How much benefits do I have for"
+        },
+        {
+          "text": "How much does my account have"
+        },
+        {
+          "text": "How much do I have left"
+        }
+      ]
+    },
+    {
+      "intent": "broker_contact",
+      "examples": [
+        {
+          "text": "Contact broker"
+        },
+        {
+          "text": "What is my broker email ?"
+        },
+        {
+          "text": "What is the email of my broker ?"
+        },
+        {
+          "text": "What is the phone number of my broker ?"
+        }
+      ],
+      "description": "Get the contact of your boker "
+    },
+    {
+      "intent": "buy_trade",
+      "examples": [
+        {
+          "text": "I want to buy"
+        }
+      ],
+      "description": "Buy a stock"
+    },
+    {
+      "intent": "claim_procedure",
+      "examples": [
+        {
+          "text": "I need reimbursement for"
+        },
+        {
+          "text": "I need to file a claim for bank"
+        },
+        {
+          "text": "I need to file a claim for my balance"
+        },
+        {
+          "text": "I need to make a claim for trades"
+        },
+        {
+          "text": "I want reimbursement for"
+        }
+      ]
+    },
+    {
+      "intent": "currency_conversion",
+      "examples": [
+        {
+          "text": "Convert me"
+        },
+        {
+          "text": "I want to convert"
+        }
+      ],
+      "description": "Convert the currencies between them"
+    },
+    {
+      "intent": "get_info",
+      "examples": [
+        {
+          "text": "Do I have"
+        },
+        {
+          "text": "I need info"
+        },
+        {
+          "text": "I need more information"
+        },
+        {
+          "text": "I need some information"
+        },
+        {
+          "text": "Information"
+        },
+        {
+          "text": "I want to know more"
+        },
+        {
+          "text": "tell me about my account"
+        },
+        {
+          "text": "Tell me what I need to know"
+        }
+      ]
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "I don't need any more help"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Later"
+        },
+        {
+          "text": "Nothing more"
+        },
+        {
+          "text": "See ya"
+        },
+        {
+          "text": "That's all"
+        }
+      ]
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "Don't go"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "It's me again"
+        }
+      ]
+    },
+    {
+      "intent": "investment_types",
+      "examples": [
+        {
+          "text": "List me investment types"
+        },
+        {
+          "text": "Show me investment types"
+        },
+        {
+          "text": "What are the investment types?"
+        }
+      ],
+      "description": "Intent to show stock investment types"
+    },
+    {
+      "intent": "list_options",
+      "examples": [
+        {
+          "text": "how helpful are you"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my policies?"
+        },
+        {
+          "text": "What are the services?"
+        },
+        {
+          "text": "what can you help with"
+        },
+        {
+          "text": "What do you recommend?"
+        },
+        {
+          "text": "What is available?"
+        },
+        {
+          "text": "What is there?"
+        },
+        {
+          "text": "What services are available?"
+        },
+        {
+          "text": "What services do I have?"
+        }
+      ]
+    },
+    {
+      "intent": "live_chart",
+      "examples": [
+        {
+          "text": "I want to get the chart of"
+        },
+        {
+          "text": "Show me chart trading"
+        },
+        {
+          "text": "Show me trading graph"
+        },
+        {
+          "text": "What is the live chart"
+        },
+        {
+          "text": "Where is the live trading market"
+        }
+      ],
+      "description": "Get live chart of a stock"
+    },
+    {
+      "intent": "make_claim",
+      "examples": [
+        {
+          "text": "Can I file a claim?"
+        },
+        {
+          "text": "Claim"
+        },
+        {
+          "text": "How do I file a claim?"
+        },
+        {
+          "text": "I need to make a claim"
+        },
+        {
+          "text": "I want to file a claim."
+        }
+      ]
+    },
+    {
+      "intent": "negative",
+      "examples": [
+        {
+          "text": "Dumb bot"
+        },
+        {
+          "text": "Dumb machine"
+        },
+        {
+          "text": "Give me someone real to talk to"
+        },
+        {
+          "text": "I hate this thing"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "Why can't you do your job"
+        },
+        {
+          "text": "Why won't you work"
+        },
+        {
+          "text": "Wow that's mean"
+        },
+        {
+          "text": "You're quite rude"
+        },
+        {
+          "text": "You're stupid"
+        }
+      ]
+    },
+    {
+      "intent": "no-response",
+      "examples": [
+        {
+          "text": "Get me a beer"
+        },
+        {
+          "text": "Help me"
+        },
+        {
+          "text": "I have an emergency"
+        },
+        {
+          "text": "I may die"
+        },
+        {
+          "text": "I need to learn more about decapitation coverage"
+        },
+        {
+          "text": "I want a beer"
+        },
+        {
+          "text": "Well, I am under pressure"
+        },
+        {
+          "text": "What should I do if I accidentally cut my finger off?"
+        }
+      ]
+    },
+    {
+      "intent": "off_topic",
+      "examples": [
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Are you single?"
+        },
+        {
+          "text": "Do you like your job?"
+        },
+        {
+          "text": "What is the meaning of life?"
+        },
+        {
+          "text": "What is the weather?"
+        }
+      ]
+    },
+    {
+      "intent": "other-features",
+      "examples": [
+        {
+          "text": "Can I get a historical analysis about my trades ?"
+        },
+        {
+          "text": "I need to delete everything"
+        },
+        {
+          "text": "Where can I find an in policy"
+        },
+        {
+          "text": "Where can I find an in-policy"
+        }
+      ]
+    },
+    {
+      "intent": "portfolio_consulting",
+      "examples": [
+        {
+          "text": "I want to consult my portfolio"
+        },
+        {
+          "text": "Portfolio information please"
+        },
+        {
+          "text": "Portfolio stocks"
+        },
+        {
+          "text": "Show me my portfolio"
+        },
+        {
+          "text": "Show me my portfolio informations"
+        }
+      ],
+      "description": "Get information about your portfolio"
+    },
+    {
+      "intent": "positive",
+      "examples": [
+        {
+          "text": "fantastic"
+        },
+        {
+          "text": "I love you"
+        },
+        {
+          "text": "I really appreciate it"
+        },
+        {
+          "text": "muchas gracias"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thank you Ana"
+        },
+        {
+          "text": "thank you so much"
+        },
+        {
+          "text": "that's great"
+        },
+        {
+          "text": "this is fantastic"
+        },
+        {
+          "text": "you're awesome"
+        }
+      ]
+    },
+    {
+      "intent": "random_conversation",
+      "examples": [
+        {
+          "text": "Are you okay?"
+        },
+        {
+          "text": "How are you?"
+        },
+        {
+          "text": "How are you doing?"
+        },
+        {
+          "text": "How are you today?"
+        }
+      ]
+    },
+    {
+      "intent": "select_detail",
+      "examples": [
+        {
+          "text": "I need the code for"
+        },
+        {
+          "text": "I need the term for"
+        },
+        {
+          "text": "What is my swap for"
+        },
+        {
+          "text": "When does my account end?"
+        }
+      ]
+    },
+    {
+      "intent": "select_procedure",
+      "examples": [
+        {
+          "text": "I need information about eye wear"
+        },
+        {
+          "text": "I need information about glasses"
+        },
+        {
+          "text": "I need information about therapy"
+        },
+        {
+          "text": "I need information about tooth repair"
+        },
+        {
+          "text": "Tell me what my coverage is"
+        },
+        {
+          "text": "Tell me what my limit is"
+        },
+        {
+          "text": "Tell me what my limit is for eye wear"
+        },
+        {
+          "text": "Yes I need to know my policy for buying new glasses"
+        }
+      ]
+    },
+    {
+      "intent": "sell_trade",
+      "examples": [
+        {
+          "text": "I want to sell"
+        }
+      ],
+      "description": "Sell stocks "
+    },
+    {
+      "intent": "still-here",
+      "examples": [
+        {
+          "text": "Come back"
+        },
+        {
+          "text": "I'm not done"
+        },
+        {
+          "text": "I need more help"
+        },
+        {
+          "text": "I wasn't done"
+        },
+        {
+          "text": "I wasn't finished"
+        },
+        {
+          "text": "k"
+        },
+        {
+          "text": "Still talking with me?"
+        }
+      ]
+    },
+    {
+      "intent": "update_policy",
+      "examples": [
+        {
+          "text": "I need more coverage"
+        },
+        {
+          "text": "I need more insurance"
+        },
+        {
+          "text": "I need to update"
+        },
+        {
+          "text": "I need to update my vision plan"
+        },
+        {
+          "text": "I want to change my account details"
+        },
+        {
+          "text": "I want to change my password"
+        },
+        {
+          "text": "I want to change my policy"
+        },
+        {
+          "text": "I want to drop my plan"
+        },
+        {
+          "text": "My information is wrong"
+        },
+        {
+          "text": "My name is wrong"
+        },
+        {
+          "text": "Update details"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "details",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "code",
+          "synonyms": [
+            "billing code",
+            "billing information",
+            "doctor code",
+            "number for form"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "end",
+          "synonyms": [
+            "end date",
+            "end of coverage",
+            "last",
+            "plan end",
+            "plan termination"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "limit",
+          "synonyms": [
+            "balance",
+            "cash",
+            "deductible",
+            "remaining"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "start",
+          "synonyms": [
+            "first",
+            "start date"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "swaps",
+          "synonyms": [
+            "percentage"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "term",
+          "synonyms": [
+            "billing period",
+            "period"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "procedures",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bank information",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "broker contact",
+          "synonyms": [
+            "bank contact"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "market sentiment",
+          "synonyms": [
+            "market prediction"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "trade action",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "response",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "do not",
+            "don't",
+            "false",
+            "negative",
+            "nope",
+            "not",
+            "not right",
+            "not that"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "alright",
+            "correct",
+            "fine",
+            "I guess",
+            "I think so",
+            "maybe",
+            "si",
+            "sure",
+            "totally",
+            "ya",
+            "yah",
+            "ye",
+            "yeah",
+            "yep",
+            "you bet",
+            "yup"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "stockCorps",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "BNP",
+          "synonyms": [
+            "BNP Paribas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "HSBC",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "SANOFI",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "stockIndices",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "EUR/USD",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "USD/EUR",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "USD/GBP",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "USD/JPY",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "stocksCrypto",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Bitcoin",
+          "synonyms": [
+            "BTC"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ethereum",
+          "synonyms": [
+            "ETH"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Litecoin",
+          "synonyms": [
+            "LTC"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "stockTypes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Corporations",
+          "synonyms": [
+            "corporation",
+            "corps"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cryptocurrencies",
+          "synonyms": [
+            "crypto",
+            "cryptocurrency"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Indices",
+          "synonyms": [
+            "indice",
+            "indices"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "transfer",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "transfer money",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "types",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "broker",
+          "synonyms": [
+            "bank",
+            "contact",
+            "manager",
+            "trader"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "market",
+          "synonyms": [
+            "financial market",
+            "sentiment",
+            "stress"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "trade",
+          "synonyms": [
+            "action"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "verb",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "claim",
+          "synonyms": [
+            "expense",
+            "file",
+            "reimbursement"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "data",
+          "synonyms": [
+            "additional details",
+            "data",
+            "description",
+            "info"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "text": "Sorry, I don't understand that one."
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_10_1475612266683",
+      "previous_sibling": "node_7_1475612009751"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Alright. What can I do for you? I mostly search trades, potfolio informations or help you file claims."
+      },
+      "parent": "node_2_1472663851939",
+      "conditions": "input.text",
+      "dialog_node": "node_10_1476150029988"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great, your trade buy of <? input.text ?> is passed !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1605969666341",
+      "conditions": "input.text.matches('^\\d{1,}\\$$')",
+      "dialog_node": "node_10_1605969666345"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How much @stocksCrypto Corp stock do you want to sell ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1605971804787",
+      "conditions": "@stockCorps",
+      "dialog_node": "node_10_1605971804794",
+      "previous_sibling": "node_6_1605971804794"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I have a date of <? input.text ?>. Is that right?"
+      },
+      "parent": "node_8_1472590259253",
+      "context": {
+        "claim_date": "<? input.text ?>",
+        "claim_step": "verifyDate"
+      },
+      "conditions": "input.text.matches('^\\d{4}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01])$')",
+      "dialog_node": "node_11_1472598207218"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Right now I can't help ! But that feature is coming soon!"
+      },
+      "conditions": "#other-features",
+      "dialog_node": "node_11_1476150557365",
+      "previous_sibling": "node_5_1476113231936"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. Please enter the amount again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1605969666341",
+      "conditions": "anything_else",
+      "dialog_node": "node_11_1605969666345",
+      "previous_sibling": "node_10_1605969666345"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great, your trade buy of <? input.text ?> is passed !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1605971804794",
+      "conditions": "input.text.matches('^\\d{1,}\\$$')",
+      "dialog_node": "node_11_1605971804794"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Good bye :)"
+      },
+      "conditions": "#goodbye",
+      "dialog_node": "node_1_1471530144227",
+      "previous_sibling": "node_4_1470846498634"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Your benefits for @procedures is "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "chosen_detail": "benefit",
+        "chosen_procedure": "@procedures"
+      },
+      "conditions": "#benefit && @procedures",
+      "dialog_node": "node_1_1471622977336",
+      "previous_sibling": "node_9_1472596541094"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I'm on the clock. Let's talk later."
+      },
+      "conditions": "#off_topic",
+      "dialog_node": "node_1_1472137756520",
+      "previous_sibling": "node_1_1475683470899"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I'm sorry for not helping you as you wished :("
+      },
+      "conditions": "#negative",
+      "dialog_node": "node_1_1472578460792",
+      "previous_sibling": "node_1_1472137756520"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I am always happy to help!"
+      },
+      "metadata": {},
+      "conditions": "#positive",
+      "dialog_node": "node_1_1472655156255",
+      "previous_sibling": "node_1_1472578460792"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Hum, let me see that for you. What service did you need to know more about?"
+      },
+      "conditions": "#get_info && !(@details) && !(@procedures) && !(@types)",
+      "dialog_node": "node_1_1472670944646",
+      "previous_sibling": "node_9_1606005315320"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_13_1472604740084",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1472598207218"
+      },
+      "conditions": "input.text.matches('^\\d{4}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01])$')",
+      "dialog_node": "node_1_1472758289866"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I can't help you with that. I'm just a bot to help you with your trades passing or portfolio consulting or claim making."
+      },
+      "conditions": "#no-response",
+      "dialog_node": "node_1_1475683470899",
+      "previous_sibling": "node_2_1472663851939"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Okay. Please enter the date again. Use YYYY-MM-DD."
+      },
+      "parent": "node_11_1472598207218",
+      "context": {
+        "claim_step": "date"
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_1_1476991423783",
+      "previous_sibling": "node_14_1472604886510"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How much @stocksCrypto cryptocurrency do you want to buy ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1605962485819",
+      "conditions": "@stocksCrypto",
+      "dialog_node": "node_1_1605969307271"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#sell_trade",
+      "dialog_node": "node_1_1605971804787",
+      "previous_sibling": "node_8_1605962485819"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "SANOFI Live Value",
+            "source": "https://charts2.finviz.com/chart.ashx?t=SNY&ty=c&ta=1&p=d&s=l",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1605979501285",
+      "conditions": "@stockCorps:SANOFI",
+      "dialog_node": "node_1_1605979815066",
+      "previous_sibling": "node_9_1605979618085"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please choose an amount !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606005315320",
+      "context": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@stockIndices:(USD/GBP)",
+      "dialog_node": "node_1_1606010018885",
+      "previous_sibling": "node_2_1606005533714"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Fantastic. What is the name of the stock and trade you want to claim?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11_1472598207218",
+      "context": {
+        "claim_step": "provider"
+      },
+      "conditions": "@response:yes",
+      "dialog_node": "node_12_1472604720806"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "I can get your @details for you. What service do you need info for? I've got information on your account, portfolio, trades and broker contact."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "chosen_detail": "@details"
+      },
+      "conditions": "#get_info && @details",
+      "dialog_node": "node_12_1476151077484",
+      "previous_sibling": "node_1_1472670944646"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1605969666345",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1605969666345"
+      },
+      "conditions": "input.text.matches('^\\d{1,}\\$$')",
+      "dialog_node": "node_12_1605969666345"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. Please enter the amount again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1605971804794",
+      "conditions": "anything_else",
+      "dialog_node": "node_12_1605971804794",
+      "previous_sibling": "node_11_1605971804794"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Okay. Please enter the date again. Use YYYY-MM-DD."
+      },
+      "parent": "node_11_1472598207218",
+      "context": {
+        "claim_step": "date"
+      },
+      "conditions": "@response:no",
+      "dialog_node": "node_13_1472604740084",
+      "previous_sibling": "node_12_1472604720806"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_12_1476151077484",
+      "conditions": "@types",
+      "dialog_node": "node_13_1476151143532"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1605971804794",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1605971804794"
+      },
+      "conditions": "input.text.matches('^\\d{1,}\\$$')",
+      "dialog_node": "node_13_1605971804794"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_11_1472598207218",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1472598207218"
+      },
+      "conditions": "input.text.matches('^\\d{4}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01])$')",
+      "dialog_node": "node_14_1472604886510",
+      "previous_sibling": "node_13_1472604740084"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I can't talk about that. But I can tell you about your portfolio, market, trades and broker contact."
+      },
+      "parent": "node_12_1476151077484",
+      "conditions": "anything_else",
+      "dialog_node": "node_14_1476151372574",
+      "previous_sibling": "node_13_1476151143532"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Alright, last thing. What is the amount you want to claim?"
+      },
+      "parent": "node_12_1472604720806",
+      "context": {
+        "claim_step": "amount",
+        "claim_provider": "<? input.text ?>"
+      },
+      "conditions": "input.text",
+      "dialog_node": "node_15_1472604976973"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Filing your claim now!"
+      },
+      "parent": "node_15_1472604976973",
+      "context": {
+        "claim_step": "verify",
+        "claim_amount": "<? input.text ?>"
+      },
+      "conditions": "input.text",
+      "dialog_node": "node_16_1472607557405"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I can't file claims for that."
+      },
+      "parent": "node_3_1472589537910",
+      "conditions": "anything_else",
+      "dialog_node": "node_18_1475623617512",
+      "previous_sibling": "node_6_1472590118317"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_6_1472590118317",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1472590259253"
+      },
+      "conditions": "@procedures",
+      "dialog_node": "node_19_1475623879868",
+      "previous_sibling": "node_7_1472590161269"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I'm fine. How are you?"
+      },
+      "conditions": "#random_conversation",
+      "dialog_node": "node_2_1472663851939",
+      "previous_sibling": "node_2_1475683599072"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Happy to help!"
+      },
+      "parent": "node_16_1472607557405",
+      "conditions": "#positive",
+      "dialog_node": "node_2_1472761508426"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Sure. What can I help you with?"
+      },
+      "conditions": "#still-here",
+      "dialog_node": "node_2_1475683599072",
+      "previous_sibling": "node_1_1471530144227"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_1_1476991423783",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1472598207218"
+      },
+      "conditions": "input.text.matches('^\\d{4}\\-(0?[1-9]|1[012])\\-(0?[1-9]|[12][0-9]|3[01])$')",
+      "dialog_node": "node_2_1476991501853"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great, your trade buy of <? input.text ?> is passed !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1605969307271",
+      "conditions": "input.text.matches('^\\d{1,}\\$$')",
+      "dialog_node": "node_2_1605969307272"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How much @stocksCrypto cryptocurrency do you want to sell ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1605971804787",
+      "conditions": "@stocksCrypto",
+      "dialog_node": "node_2_1605971804794"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "source": "",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#live_chart",
+      "dialog_node": "node_2_1605979501285",
+      "previous_sibling": "node_1_1605971804787"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "BNP Paribas Live Value",
+            "source": "https://s3.tradingview.com/q/QXcVrkjH_mid.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1605979501285",
+      "conditions": "@stockCorps:BNP",
+      "dialog_node": "node_2_1605979855776",
+      "previous_sibling": "node_1_1605979815066"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please choose an amount !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606005315320",
+      "context": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@stockIndices:(EUR/USD)",
+      "dialog_node": "node_2_1606005533714"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have <? entities['sys-currency'][0].value.toDouble() * 0.75 ?> GBP"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1606010018885",
+      "conditions": "entities['sys-currency']",
+      "dialog_node": "node_2_1606010018888"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Let me take care for you. Which trade is it about?"
+      },
+      "conditions": "#make_claim",
+      "dialog_node": "node_3_1472589537910",
+      "previous_sibling": "node_1_1471622977336"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Oh no. Let's get this fixed."
+      },
+      "parent": "node_16_1472607557405",
+      "conditions": "#negative",
+      "dialog_node": "node_3_1472761519777",
+      "previous_sibling": "node_2_1472761508426"
+    },
+    {
+      "type": "standard",
+      "title": "I ",
+      "output": {
+        "text": "Unfortunately I can only tell you about your account or trades right now."
+      },
+      "conditions": "@transfer",
+      "dialog_node": "node_3_1476110635133",
+      "previous_sibling": "node_9_1475612074357"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "What was the date of your appointment? I prefer YYYY-MM-DD to make filing easier for me."
+      },
+      "context": {
+        "claim_step": "date",
+        "claim_procedure": "@procedures"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_11_1472598207218"
+      },
+      "conditions": "#make_claim && @procedures",
+      "dialog_node": "node_3_1476991627470",
+      "previous_sibling": "node_3_1472589537910"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. Please enter the amount again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1605969307271",
+      "conditions": "anything_else",
+      "dialog_node": "node_3_1605969307272",
+      "previous_sibling": "node_2_1605969307272"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great, your trade buy of <? input.text ?> is passed !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1605971804794",
+      "conditions": "input.text.matches('^\\d{1,}\\$$')",
+      "dialog_node": "node_3_1605971804794"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "USD/GBP Live Value",
+            "source": "https://s3.tradingview.com/o/oFddrUBj_mid.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1605979501285",
+      "conditions": "@stockIndices:(USD/GBP)",
+      "dialog_node": "node_3_1605979952994",
+      "previous_sibling": "node_2_1605979855776"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please choose an amount !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1606005315320",
+      "context": {},
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "@stockIndices:(USD/JPY)",
+      "dialog_node": "node_3_1606010042925",
+      "previous_sibling": "node_1_1606010018885"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Hello! How can I can help you today?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#greeting",
+      "dialog_node": "node_4_1470846498634",
+      "previous_sibling": "node_6_1476149112153"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I hope it went smoothly. What was the date of your appointment? I prefer YYYY-MM-DD to make filing easier for me."
+      },
+      "context": {
+        "claim_step": "date",
+        "claim_procedure": "@procedures"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1472590259253"
+      },
+      "conditions": "@procedures && #claim_procedure",
+      "dialog_node": "node_4_1472589946048",
+      "previous_sibling": "node_3_1476991627470"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "What did you need to know about @procedures?"
+      },
+      "parent": "node_2_1475683599072",
+      "conditions": "@procedures",
+      "dialog_node": "node_4_1476111372486"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#investment_types",
+      "dialog_node": "node_4_1605959057802",
+      "previous_sibling": "node_5_1605973771407"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1605969307272",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1605969307272"
+      },
+      "conditions": "input.text.matches('^\\d{1,}\\$$')",
+      "dialog_node": "node_4_1605969307272"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. Please enter the amount again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1605971804794",
+      "conditions": "anything_else",
+      "dialog_node": "node_4_1605971804794",
+      "previous_sibling": "node_3_1605971804794"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "EUR/USD Live Value",
+            "source": "https://a.c-dn.net/b/0kU2Np/chart-EURUSD-202011021223__en.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1605979501285",
+      "conditions": "@stockIndices:(EUR/USD)",
+      "dialog_node": "node_4_1605980049924",
+      "previous_sibling": "node_3_1605979952994"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have <? entities['sys-currency'][0].value.toDouble() * 103,86 ?> JPY"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1606010042925",
+      "conditions": "entities['sys-currency']",
+      "dialog_node": "node_4_1606010042927"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I can find some info on your account, financial market, portfolio, and broker contact."
+      },
+      "parent": "node_1_1472670944646",
+      "conditions": "#list_options",
+      "dialog_node": "node_5_1471288584916"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Got it. Now what was the date of your trade?"
+      },
+      "parent": "node_3_1472589537910",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1472590259253"
+      },
+      "conditions": "@procedures",
+      "dialog_node": "node_5_1472590033232"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I can talk about your portfolio, claims and trades making."
+      },
+      "conditions": "#list_options",
+      "dialog_node": "node_5_1476113231936",
+      "previous_sibling": "node_3_1476110635133"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How much @stocksCrypto indice do you want to buy ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1605962485819",
+      "conditions": "@stockIndices",
+      "dialog_node": "node_5_1605969642538",
+      "previous_sibling": "node_1_1605969307271"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1605971804794",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_3_1605971804794"
+      },
+      "conditions": "input.text.matches('^\\d{1,}\\$$')",
+      "dialog_node": "node_5_1605971804794"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your broker contact is : bankbroker@email.com and phone number : +33xxxxxxx"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#broker_contact",
+      "dialog_node": "node_5_1605973771407",
+      "previous_sibling": "node_7_1605958919430"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "USD/JPY Live Value",
+            "source": "https://i.pinimg.com/originals/f2/82/33/f28233c06abbaae142da0148859315eb.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1605979501285",
+      "conditions": "@stockIndices:(USD/JPY)",
+      "dialog_node": "node_5_1605980124813",
+      "previous_sibling": "node_4_1605980049924"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Alright, I can do a @types claim. I also need to know the specific procedure you had done."
+      },
+      "parent": "node_3_1472589537910",
+      "context": {
+        "claim_step": "procedure",
+        "chosen_service": "@types"
+      },
+      "conditions": "@types",
+      "dialog_node": "node_6_1472590118317",
+      "previous_sibling": "node_5_1472590033232"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "text": "Hello ! Let me know if you need any help."
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "conversation_start",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1475611948267",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "How can I help with your @types ? Do you need information or to file a claim?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "chosen_service": "@types"
+      },
+      "conditions": "@types",
+      "dialog_node": "node_6_1476149112153",
+      "previous_sibling": "node_4_1472589946048"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Indices types are : EURO STOXX 50, STOXX Europe 600, FTSEurofirst 300 Index, S&P Europe 350"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1605959057802",
+      "conditions": "@stockTypes:Indices",
+      "dialog_node": "node_6_1605959149571"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great, your trade buy of <? input.text ?> is passed !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1605969642538",
+      "conditions": "input.text.matches('^\\d{1,}\\$$')",
+      "dialog_node": "node_6_1605969642539"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How much @stocksCrypto indice do you want to sell ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1605971804787",
+      "conditions": "@stockIndices",
+      "dialog_node": "node_6_1605971804794",
+      "previous_sibling": "node_2_1605971804794"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "The procedure categories are:  <? $procedures ?>. Pick one of those for me."
+      },
+      "parent": "node_6_1472590118317",
+      "conditions": "#list_options",
+      "dialog_node": "node_7_1472590161269"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I'm not confident enough to answer that one. Maybe try something else?"
+      },
+      "conditions": "intents[0].confidence < 0.80",
+      "dialog_node": "node_7_1475612009751",
+      "previous_sibling": "node_1_1472655156255"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Alright, I can do a <? $chosen_service ?> claim. I also need to know the specific procedure you had done."
+      },
+      "parent": "node_6_1476149112153",
+      "context": {
+        "claim_step": "procedure"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1472590118317"
+      },
+      "conditions": "#make_claim",
+      "dialog_node": "node_7_1476149155153"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In your portfolio, you are actually investing in :\n- HSBC : 1200 USD\n- Bitcoin: 850 USD\n- EUR/USD: 130 USD"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#portfolio_consulting",
+      "dialog_node": "node_7_1605958919430",
+      "previous_sibling": "node_11_1476150557365"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Berkshire Hathaway Inc. ( BRK-A), Chocoladefabriken Lindt & Spruengli AG, Next Plc, Seaboard Corporation, NVR Inc, Amazon Inc, Booking Holdings Inc, Alphabet Inc ( GOOG)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1605959057802",
+      "conditions": "@stockTypes:Corporations",
+      "dialog_node": "node_7_1605959492663",
+      "previous_sibling": "node_9_1605959406599"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. Please enter the amount again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1605969642538",
+      "conditions": "anything_else",
+      "dialog_node": "node_7_1605969642539",
+      "previous_sibling": "node_6_1605969642539"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great, your trade buy of <? input.text ?> is passed !"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1605971804794",
+      "conditions": "input.text.matches('^\\d{1,}\\$$')",
+      "dialog_node": "node_7_1605971804794"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Litecoin Live Value",
+            "source": "https://www.profitconfidential.com/wp-content/uploads/2017/11/litecoin-price-chart-21-nov.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1605979501285",
+      "conditions": "@stocksCrypto:Litecoin",
+      "dialog_node": "node_7_1605980540184",
+      "previous_sibling": "node_5_1605980124813"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You have <? entities['sys-currency'][0].value.toDouble() * 1.19 ?> USD"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1606005533714",
+      "conditions": "entities['sys-currency']",
+      "dialog_node": "node_7_1606007450155"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "What was the date of your trade ? I prefer YYYY-MM-DD to make filing easier for me."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1472590161269",
+      "context": {
+        "claim_step": "date",
+        "claim_procedure": "@procedures"
+      },
+      "conditions": "@procedures",
+      "dialog_node": "node_8_1472590259253"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_6_1476149112153",
+      "conditions": "#get_info",
+      "dialog_node": "node_8_1476149304756",
+      "previous_sibling": "node_7_1476149155153"
+    },
+    {
+      "type": "standard",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#buy_trade",
+      "dialog_node": "node_8_1605962485819",
+      "previous_sibling": "node_4_1605959057802"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1605969642539",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1605969642539"
+      },
+      "conditions": "input.text.matches('^\\d{1,}\\$$')",
+      "dialog_node": "node_8_1605969642539"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay. Please enter the amount again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1605971804794",
+      "conditions": "anything_else",
+      "dialog_node": "node_8_1605971804794",
+      "previous_sibling": "node_7_1605971804794"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Bitcoin Live Value",
+            "source": "https://specials-images.forbesimg.com/imageserve/5e6b2144aa5428000759bcac/960x0.jpg?fit=scale",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1605979501285",
+      "conditions": "@stocksCrypto:Bitcoin",
+      "dialog_node": "node_8_1605980661591",
+      "previous_sibling": "node_7_1605980540184"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "Let me get that for you. Grabbing the  @details for @procedures."
+      },
+      "context": {
+        "chosen_detail": "@details",
+        "chosen_procedure": "@procedures"
+      },
+      "conditions": "@details && #select_detail && @procedures",
+      "dialog_node": "node_9_1472596541094",
+      "previous_sibling": "node_12_1476151077484"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": "I'm not able to answer that."
+      },
+      "conditions": "intents.size() == 0",
+      "dialog_node": "node_9_1475612074357",
+      "previous_sibling": "node_6_1475611948267"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Most common  cryptocurrencies are: Bitcoin (BTC), Ethereum (ETH), XRP (XRP), Tether (USDT), Bitcoin Cash (BCH), Bitcoin SV (BSV), Litecoin (LTC), EOS (EOS), Binance Coin (BNB), Tezos (XTZ)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1605959057802",
+      "conditions": "@stockTypes:Cryptocurrencies",
+      "dialog_node": "node_9_1605959406599",
+      "previous_sibling": "node_6_1605959149571"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How much @stocksCrypto Corp stock do you want to buy ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1605962485819",
+      "conditions": "@stockCorps",
+      "dialog_node": "node_9_1605969666341",
+      "previous_sibling": "node_5_1605969642538"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1605971804794",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1605971804794"
+      },
+      "conditions": "input.text.matches('^\\d{1,}\\$$')",
+      "dialog_node": "node_9_1605971804794"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "HSBC Live Value",
+            "source": "https://charts2.finviz.com/chart.ashx?t=HSBC&ty=c&ta=0&p=d&s=l",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1605979501285",
+      "conditions": "@stockCorps:HSBC",
+      "dialog_node": "node_9_1605979618085"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Ethereum Live Value",
+            "source": "https://www.cfdtrading.com/media/ETH-1605914226.54057.png",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1605979501285",
+      "conditions": "@stocksCrypto:Ethereum",
+      "dialog_node": "node_9_1605980712816",
+      "previous_sibling": "node_8_1605980661591"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Convert currencies",
+            "options": [
+              {
+                "label": "EUR/USD",
+                "value": {
+                  "input": {
+                    "text": "EUR/USD"
+                  }
+                }
+              },
+              {
+                "label": "USD/GBP",
+                "value": {
+                  "input": {
+                    "text": "USD/GBP"
+                  }
+                }
+              },
+              {
+                "label": "USD/JPY",
+                "value": {
+                  "input": {
+                    "text": "USD/JPY"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#currency_conversion",
+      "dialog_node": "node_9_1606005315320",
+      "previous_sibling": "node_2_1605979501285"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "system_entities": {
+      "enabled": true
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Trading Assistant",
+  "language": "en",
+  "description": ""
+}
